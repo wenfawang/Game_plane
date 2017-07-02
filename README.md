@@ -1,2 +1,3 @@
 # Game_plane
-Canvas微信游戏
+Canvas游戏开发--打飞机
+[开始游戏] （https://wenfawaCanvasng.github.io/Game_plane/）
