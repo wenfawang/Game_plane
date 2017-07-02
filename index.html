@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style tyep="text/css">
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    canvas{
+        display: block;
+        margin:0 auto;
+    }
+    </style>
+</head>
+<body>
+    <canvas id="mycanvas"></canvas>
+
+    <audio src="audio/gameover.mp3" id="gameover"></audio>
+	<audio src="audio/shoot.wav" id="shoot"></audio>
+	<audio src="audio/se.ogg" id="se"></audio><!--小飞机下落-->
+	<audio src="audio/boom.wav" id="boom"></audio>
+	<audio src="audio/gamestartt.mp3" autoplay></audio>
+
+    <script type="text/javascript" src="js/underscore-min.js"></script>
+    <script type="text/javascript" src="js/Game.js"></script>
+    <script type="text/javascript" src="js/Myplane.js"></script>
+    <script type="text/javascript" src="js/Bullet.js"></script>
+    <script type="text/javascript" src="js/Smallenemy.js"></script>
+    <script type="text/javascript" src="js/Middleenemy.js"></script>
+    <script type="text/javascript" src="js/Bigenemy.js"></script>
+    <script type="text/javascript" src="js/SceneManager.js"></script>
+    <script type="text/javascript" src="js/Ball.js"></script>
+    <script type="text/javascript">
+        var game = new Game();
+    </script>
+</body>
+</html>
